@@ -4,6 +4,8 @@ Written in portable C using minimal library functions (malloc, free, printf, and
 
 Also includes a 9-line version of the code in `look_and_say_shrunk.c`, just for fun. It's exactly the same code, except the shrunk version doesn't check the return value of malloc (so it will segfault if you run out of memory, instead of exiting gracefully).
 
+This repository is the result of a coding challenge I did with a friend :)
+
 ### How to use
 - clone the repository or simply download the self-contained `look_and_say.c` file
 - compile the code to an executable binary on your local system    
